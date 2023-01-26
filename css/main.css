@@ -295,7 +295,7 @@ body {
 @media screen and (min-width: 400px) and (max-width: 797px) {
   .hero {
     padding: 118px 60px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/Headerimg_mob.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Headerimg_mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -303,7 +303,7 @@ body {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero {
     padding: 118px 204px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/Headerimg_tab.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Headerimg_tab.jpg);
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -315,7 +315,7 @@ body {
     background-color: #2F303A;
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/main_Img.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main_Img.jpg);
     background-repeat: no-repeat;
     background-position: center;
   }
