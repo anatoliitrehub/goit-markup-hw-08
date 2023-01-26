@@ -1,6 +1,6 @@
 .footer {
 
-    @media screen and (min-width: 400px) and (max-width: 767px){
+    @media screen and (min-width: 320px) and (max-width: 767px){
        
       }
       
@@ -21,7 +21,7 @@
 &__contacts{
     background-color: #2F303A;
 
-    @media screen and (min-width: 400px) and (max-width: 767px) {
+    @media screen and (min-width: 320px) and (max-width: 767px) {
         padding: 60px 15px;
     }
     
@@ -41,7 +41,7 @@
 }
 
 &__address{
-    @media screen and (min-width: 400px) and (max-width: 767px) {
+    @media screen and (min-width: 320px) and (max-width: 767px) {
         text-align: center;
     }
     
@@ -78,7 +78,7 @@
 &__signup{
     
     color: var(--primary-white-color);
-    @media screen and (min-width: 400px) and (max-width: 767px) {
+    @media screen and (min-width: 320px) and (max-width: 767px) {
         margin: 60px auto;
         text-align: center;
     }

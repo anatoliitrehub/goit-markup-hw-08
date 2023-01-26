@@ -11,7 +11,7 @@
     transition: transform var(--tra), visibility var(--tra);
     padding: 40px;
 
-    @media screen and (min-width: 400px) and (max-width: 1199px) {
+    @media screen and (min-width: 320px) and (max-width: 1199px) {
        width: 450px;
        height: 609px;
       }

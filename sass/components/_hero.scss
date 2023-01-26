@@ -16,7 +16,7 @@
 //  background-repeat: no-repeat;
 //     background-position: center;
 
-    @media screen and (min-width: 400px) and (max-width: 797px) {
+    @media screen and (min-width: 320px) and (max-width: 797px) {
         padding: 118px 60px;
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Headerimg_mob.jpg);
         background-repeat: no-repeat;
@@ -49,7 +49,7 @@
 
 &__title {
 
-    @media screen and (min-width: 400px) and (max-width: 797px) {
+    @media screen and (min-width: 320px) and (max-width: 797px) {
         font-size: 26px;
         line-height: 1.6;
         letter-spacing: 0.06em;
