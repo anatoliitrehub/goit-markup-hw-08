@@ -1,0 +1,8 @@
+body {
+    font-family: $fontFamaly;
+    font-weight: $fontWeight;
+    font-size: $fontSize;
+    letter-spacing: $letterSpacing;
+    color: var(--main-text-color);
+    background-color: var(--primary-white-color);
+}

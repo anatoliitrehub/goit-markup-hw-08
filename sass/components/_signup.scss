@@ -1,0 +1,14 @@
+.signup__title {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+
+.signup__soc {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    fill: currentColor;
+    list-style-type: none;
+}

@@ -1,0 +1,97 @@
+.footer {
+
+    @media screen and (min-width: 400px) and (max-width: 767px){
+       
+      }
+      
+      @media screen and (min-width: 768px) and (max-width: 1199px) {
+        
+      }
+      
+      @media screen and (min-width: 1200px) {
+        max-width: 1600px;
+    margin: 0 auto;
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+      }
+    
+
+
+&__contacts{
+    background-color: #2F303A;
+
+    @media screen and (min-width: 400px) and (max-width: 767px) {
+        padding: 60px 15px;
+    }
+    
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      padding-top:60px;
+    //   padding-bottom: 60px;
+      display: flex;
+    flex-wrap: wrap;
+
+    }
+    
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    }
+   
+
+}
+
+&__address{
+    @media screen and (min-width: 400px) and (max-width: 767px) {
+        text-align: center;
+    }
+    
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      width:232px;
+      text-align: center;
+      margin: 0 auto;
+    }
+    
+    @media screen and (min-width: 1200px) {
+     
+    }
+   
+}
+
+&__logo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    transition: color var(--tra);
+}
+
+&__logo--start {
+    color: var(--color-active);
+}
+
+&__logo--end {
+    color: var(--primary-white-color);
+}
+
+&__signup{
+    
+    color: var(--primary-white-color);
+    @media screen and (min-width: 400px) and (max-width: 767px) {
+        margin: 60px auto;
+        text-align: center;
+    }
+    
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      text-align: center;
+      width: 206px;
+      margin:0 auto;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        margin-left: 70px;
+    margin-top: 12px;
+    }
+}
+}

@@ -1,0 +1,129 @@
+.principles{
+    
+    @media screen and (min-width: 400px) and (max-width: 767px) {
+        padding: 60px 15px;
+        // display: none;
+      }
+    
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      padding: 60px 15px;
+
+    }
+      
+      @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    
+      }
+
+      
+
+&__wrapper {
+    @media screen and (min-width: 400px) and (max-width: 767px) {
+        list-style-type: none;
+      }
+    
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      list-style-type: none;
+      }
+      
+      @media screen and (min-width: 1200px) {
+        display: flex;
+        gap: 30px;
+        list-style-type: none;
+    
+      }
+
+   
+  }
+
+&__item{
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+// margin-top:30px;
+max-width: 354px;
+}}
+
+&__item:nth-child(n+2){
+@media screen and (min-width: 400px) and (max-width: 767px) {
+margin-top:30px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+// margin-top:30px;
+// width: calc((100%-60px)/2);
+}
+
+}
+
+&__part {
+    // height: 120px;
+    // // width: 270px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // margin-bottom: 30px;
+    background-color: #F5F4FA;
+    @media screen and (min-width: 400px) and (max-width: 767px) {
+        list-style-type: none;
+        height: 120px;
+        // width: 270px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+    
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      list-style-type: none;
+      height: 120px;
+      // width: 270px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+      
+      @media screen and (min-width: 1200px) {
+    //     height: 120px;
+    width: 270px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // margin-bottom: 30px;
+    // background-color: #F5F4FA;
+    
+      }
+
+    
+}
+
+&__icon {
+   height: 70px;
+    width: 70px;
+}
+
+&__title {
+    font-size: 14px;
+    line-height: 1.14;
+    @media screen and (min-width: 400px) and (max-width: 767px) {
+        text-align: center;
+      margin-top:60px
+      }
+
+      @media screen and (min-width: 768px) and (max-width: 1199px) {
+      margin-top:30px
+      }
+}
+
+&__description {
+    color: var(--secondary-text-color);
+    line-height: 1.71;
+    margin-top: 10px;
+}
+}
