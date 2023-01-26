@@ -760,6 +760,7 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   transition: opacity var(--tra), visibility var(--tra);
+  overflow-y: scroll;
 }
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
