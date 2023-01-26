@@ -1,5 +1,8 @@
 .subscribe{
-    @media screen and (min-width: 320px) and (max-width: 767px) {
+    @media screen and (max-width: 479px) {
+        text-align: center;
+    }
+    @media screen and (min-width: 480px) and (max-width: 767px) {
         text-align: center;
     }
     

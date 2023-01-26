@@ -16,7 +16,14 @@
 //  background-repeat: no-repeat;
 //     background-position: center;
 
-    @media screen and (min-width: 320px) and (max-width: 797px) {
+@media screen and (max-width: 479px) {
+  padding: 118px 0;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Headerimg_mob.jpg);
+  background-repeat: no-repeat;
+     background-position: center;
+}
+
+    @media screen and (min-width: 480px) and (max-width: 797px) {
         padding: 118px 60px;
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Headerimg_mob.jpg);
         background-repeat: no-repeat;
@@ -57,10 +64,10 @@
         color: var(--primary-white-color);
         text-transform: uppercase;
         text-align: center;
-        padding-bottom: 30px;
+        margin-bottom: 30px;
     
-        max-width:360px;
-        margin: 0 auto;
+        width:100%;
+        // margin: 0 auto;
        
       }
    

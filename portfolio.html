@@ -25,6 +25,18 @@
             ><span class="header__logo--end">Studio</span>
           </a>
 
+          <div class="header__mobmenu js-open-menu">
+            <button
+              class="menu-toggle js-open-menu"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
+            >
+              <svg class="mobmenu__open">
+                <use href="./images/icons.svg#icon-menu"></use>
+              </svg>
+            </button>
+          </div>
+
           <ul class="header__pages">
             <li>
               <a href="./index.html" class="header__sheet">Студія</a>
@@ -62,7 +74,7 @@
       </div>
     </header>
 
-    <main>
+    <main class="main">
       <section class="examples">
         <div class="container">
           <h1 class="visually-hidden">works</h1>
@@ -87,7 +99,7 @@
             <li class="examples__item">
               <a href="#" class="examples__link">
                 <div class="examples__topwrap">
-                  <img src="./images/img1w.jpg" alt="Технокряк" width="370" />
+                  <img src="./images/img1w.jpg" alt="Технокряк" />
                   <p class="examples__toptext">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -108,7 +120,6 @@
                   <img
                     src="./images/img2w.jpg"
                     alt="Постер New Orlean vs Golden Star"
-                    width="370"
                   />
                   <p class="examples__toptext">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -129,11 +140,7 @@
             <li class="examples__item">
               <a href="#" class="examples__link">
                 <div class="examples__topwrap">
-                  <img
-                    src="./images/img3w.jpg"
-                    alt="Ресторан Seafood"
-                    width="370"
-                  />
+                  <img src="./images/img3w.jpg" alt="Ресторан Seafood" />
                   <p class="examples__toptext">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -151,11 +158,7 @@
             <li class="examples__item">
               <a href="#" class="examples__link">
                 <div class="examples__topwrap">
-                  <img
-                    src="./images/img4w.jpg"
-                    alt="Проєкт Prime"
-                    width="370"
-                  />
+                  <img src="./images/img4w.jpg" alt="Проєкт Prime" />
                   <p class="examples__toptext">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -173,11 +176,7 @@
             <li class="examples__item">
               <a href="#" class="examples__link">
                 <div class="examples__topwrap">
-                  <img
-                    src="./images/img5w.jpg"
-                    alt="Проєкт Boxes"
-                    width="370"
-                  />
+                  <img src="./images/img5w.jpg" alt="Проєкт Boxes" />
                   <p class="examples__toptext">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -198,7 +197,6 @@
                   <img
                     src="./images/img6w.jpg"
                     alt="Inspiration has no Borders"
-                    width="370"
                   />
                   <p class="examples__toptext">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -217,11 +215,7 @@
             <li class="examples__item">
               <a href="#" class="examples__link">
                 <div class="examples__topwrap">
-                  <img
-                    src="./images/img7w.jpg"
-                    alt="Видання Limited Edition"
-                    width="370"
-                  />
+                  <img src="./images/img7w.jpg" alt="Видання Limited Edition" />
                   <p class="examples__toptext">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -239,7 +233,7 @@
             <li class="examples__item">
               <a href="#" class="examples__link">
                 <div class="examples__topwrap">
-                  <img src="./images/img8w.jpg" alt="Проєкт LAB" width="370" />
+                  <img src="./images/img8w.jpg" alt="Проєкт LAB" />
                   <p class="examples__toptext">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -257,11 +251,7 @@
             <li class="examples__item">
               <a href="#" class="examples__link">
                 <div class="examples__topwrap">
-                  <img
-                    src="./images/img9w.jpg"
-                    alt="Growing Business"
-                    width="370"
-                  />
+                  <img src="./images/img9w.jpg" alt="Growing Business" />
                   <p class="examples__toptext">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -381,5 +371,75 @@
         </div>
       </div>
     </footer>
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg width="40" height="40">
+          <use href="./images/icons.svg#mobmenu-close"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile__menu">
+        <li>
+          <a href="./index.html" class="mobile__link">Студія</a>
+        </li>
+        <li>
+          <a href="./portfolio.html" class="mobile__link current">Портфоліо</a>
+        </li>
+        <li>
+          <a href="./contacts.html" class="mobile__link">Контакти</a>
+        </li>
+      </ul>
+      <div class="mobile__wrap">
+        <ul class="mobile__contacts">
+          <li>
+            <a class="mobile__tel" href="tel:+380961111111">
+              +38 096 111 11 11
+            </a>
+          </li>
+          <li>
+            <a class="mobile__mail" href="mailto:info@devstudio.com">
+              info@devstudio.com
+            </a>
+          </li>
+        </ul>
+        <ul class="mobile__soc">
+          <li>
+            <a
+              class="mobile__soclink"
+              href="https://www.instagram.com/"
+              title="лінка на інсту"
+              >Instagram
+            </a>
+          </li>
+          <li>
+            <a
+              class="mobile__soclink"
+              href="https://twitter.com/?lang=uk"
+              title="лінка на твітер"
+              >Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              class="mobile__soclink"
+              href="https://www.facebook.com/"
+              title="лінка на фейсбук"
+              >Facebook
+            </a>
+          </li>
+          <li>
+            <a
+              class="mobile__soclink"
+              href="https://www.linkedin.com/"
+              title="лінка на лінкедін"
+              >Linkedin
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

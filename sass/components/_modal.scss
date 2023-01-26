@@ -11,7 +11,12 @@
     transition: transform var(--tra), visibility var(--tra);
     padding: 40px;
 
-    @media screen and (min-width: 320px) and (max-width: 1199px) {
+    @media screen and (max-width: 479px) {
+        width: 100%;
+        // height: 609px;
+       }
+
+    @media screen and (min-width: 480px) and (max-width: 1199px) {
        width: 450px;
        height: 609px;
       }
@@ -26,7 +31,7 @@
 &__close--btn{
     position: absolute;
     right: 8px;
-    top: 8px;
+    // top: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,6 +41,12 @@
     border-radius: 50%;
     background-color: transparent;
     transition: fill var(--tra);
+    @media screen and (max-width:479px){
+        top:25px;
+    }
+    @media screen and (min-width:480px){
+        top:8px;
+    }
 }
 
 &__close--btn:hover{

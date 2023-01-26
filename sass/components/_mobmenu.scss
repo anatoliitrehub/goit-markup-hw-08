@@ -68,7 +68,7 @@
     width: 100vw;
     height: 100vh;
     // padding: 32px;
-    padding: 48px 83px 48px 40px;
+    padding: 48px 40px;
     background-color: var(--primary-white-color);
     z-index: 999;
   
@@ -118,6 +118,9 @@
     line-height: 1.18;
     color: #2196F3;
     letter-spacing: 0.02em;
+    @media screen and (max-width:479px){
+        font-size: 27px;
+    }
   }
 
   .mobile__mail{
@@ -132,11 +135,19 @@
     margin-top: 64px;
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 9px;
+    @media screen and (max-width:479px){
+        flex-wrap: wrap;
+    }
   }
 
   .mobile__soclink{
     text-decoration: none;
+    color: #2196F3;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
   }
 
   .mobile__soclink::after{

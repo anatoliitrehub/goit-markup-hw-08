@@ -1,6 +1,11 @@
 .principles{
+
+  @media screen and (max-width: 479px) {
+    padding: 15px;
+    // display: none;
+  }
     
-    @media screen and (min-width: 320px) and (max-width: 767px) {
+    @media screen and (min-width: 480px) and (max-width: 767px) {
         padding: 60px 15px;
         // display: none;
       }
@@ -22,6 +27,9 @@
 &__wrapper {
     @media screen and (min-width: 320px) and (max-width: 767px) {
         list-style-type: none;
+        display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
       }
     
 
@@ -43,14 +51,20 @@
   }
 
 &__item{
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  @media screen  and (max-width: 479px) {
+    // margin-top:30px;
+    // max-width: 354px;
+    width: 100%;
+    }
+  @media screen and (min-width:480px) and (max-width: 1199px) {
 // margin-top:30px;
-max-width: 354px;
+// max-width: 354px;
+width: calc(50% - 30px);
 }}
 
 &__item:nth-child(n+2){
 @media screen and (min-width: 320px) and (max-width: 767px) {
-margin-top:30px;
+// margin-top:30px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -68,6 +82,7 @@ margin-top:30px;
     // align-items: center;
     // margin-bottom: 30px;
     background-color: #F5F4FA;
+    
     @media screen and (min-width: 320px) and (max-width: 767px) {
         list-style-type: none;
         height: 120px;
@@ -111,13 +126,16 @@ margin-top:30px;
 &__title {
     font-size: 14px;
     line-height: 1.14;
-    @media screen and (min-width: 320px) and (max-width: 767px) {
+    @media screen and (max-width: 479px) {
+      text-align: center;
+    }
+    @media screen and (min-width: 480px) and (max-width: 767px) {
         text-align: center;
-      margin-top:60px
+      margin-top:60px;
       }
 
       @media screen and (min-width: 768px) and (max-width: 1199px) {
-      margin-top:30px
+      margin-top:30px;
       }
 }
 
