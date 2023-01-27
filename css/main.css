@@ -578,7 +578,7 @@ body {
 
 @media screen and (max-width: 479px) {
   .principles {
-    padding: 15px;
+    padding: 60px 15px;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -740,6 +740,7 @@ body {
 }
 @media screen and (max-width: 479px) {
   .team {
+    padding: 60px 15px;
     width: 100%;
   }
 }
@@ -764,6 +765,7 @@ body {
     font-size: 24px;
     text-align: center;
     line-height: 1.17;
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -789,6 +791,9 @@ body {
     line-height: 1.17;
     margin-bottom: 50px;
   }
+}
+.team__list {
+  list-style-type: none;
 }
 @media screen and (max-width: 767px) {
   .team__list {
@@ -1203,7 +1208,12 @@ body {
   align-items: center;
   gap: 8px;
 }
-@media screen and (min-width: 468px) and (max-width: 1199px) {
+@media screen and (max-width: 479px) {
+  .formfield__checktext {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1199px) {
   .formfield__checktext {
     font-size: 12px;
   }
@@ -1448,17 +1458,8 @@ body {
 .address__list {
   display: flex;
   flex-direction: column;
+  gap: 9px;
   list-style-type: none;
-}
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .address__list {
-    gap: 8px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .address__list {
-    gap: 9px;
-  }
 }
 .address__map {
   color: var(--primary-white-color);

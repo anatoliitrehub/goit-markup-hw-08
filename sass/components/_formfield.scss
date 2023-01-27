@@ -68,11 +68,11 @@
     align-items: center;
     gap: 8px;
 
-    @media screen and (max-width: 467px) {
-        
+    @media screen and (max-width: 479px) {
+        font-size: 12px;
        }
       
-  @media screen and (min-width: 468px) and (max-width: 1199px) {
+  @media screen and (min-width: 480px) and (max-width: 1199px) {
      font-size: 12px;
     }
     
